@@ -45,7 +45,7 @@
   color: white;
   text-align: center;
   font-size: 1.5em;
-  font-weight: bold;
+
 
   padding: 1%;
   width: 10%;
@@ -72,6 +72,8 @@
 
 .button:hover span {
   padding-right: 25px;
+  font-weight: bold;
+  transition: 1s ease;
 }
 
 .button:hover span:after {
