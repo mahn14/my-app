@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Element } from 'react-scroll'
 
 import About from './components/About.js'
+import Projects from './components/Projects.js'
 import './App.css'
 
 
@@ -37,6 +38,7 @@ class App extends Component {
         <div className="body">
           <div ref={this.scrollDiv} />
           <About />
+          <Projects />
         </div>
 
 
