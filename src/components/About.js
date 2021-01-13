@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Scroll, Element } from 'react-scroll'
 
 import '../css/About.css'
-
+import img_natgeo from '../images/natgeo.png'
+import img_kpmg from '../images/kpmg.png'
+import img_portrait from '../images/portrait.png'
 
 class About extends Component {
 
@@ -24,7 +26,9 @@ class About extends Component {
                     {/* PORTRAIT ---------- */}
                     <div className="column-left">
                         <div className="portrait-placeholder">
-                            <h1>Placeholder Portrait</h1>
+                            <img src={img_portrait}></img><br></br><br></br>
+                            <img src={img_natgeo}></img><br></br><br></br>
+                            <img src={img_kpmg}></img>
                         </div>
                     </div>
 

@@ -4,20 +4,22 @@
     display: flex;
     width: 100%;
 
+    background-color: lightcyan;
 }
 .emptyNavbar {
     height: 10%;
 }
 
-
-.column-left, .column-right {
+.column-right {
     width: 100%;   
     margin: 5%;
-
- 
- 
+    background-color: lightcoral
 }
-
+.column-left {
+    width: 100%;
+    margin: 5%;
+    background-color: lightblue;
+}
 
 h1 {
     color: gray;
@@ -27,3 +29,7 @@ p {
     font-size: 1.3em;
 }
 
+img {
+    width: 30%;
+    
+}
