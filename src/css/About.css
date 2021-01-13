@@ -1,20 +1,21 @@
 /* Home */
 .About {
-    height: 90vh;
+    height: 100vh;
     display: flex;
+    width: 100%;
+
+}
+.emptyNavbar {
+    height: 10%;
 }
 
-.column-left {
-    width: 50%;
-    border: 1em green solid;
-    margin: 2%;
-    
-}
 
-.column-right {
-    width: 50%;
-    border: 1em white solid;
-    margin: 2%;
+.column-left, .column-right {
+    width: 100%;   
+    margin: 5%;
+
+ 
+ 
 }
 
 

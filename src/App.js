@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll'
 
+import Navbar from './components/Navbar.js'
 import About from './components/About.js'
 import Projects from './components/Projects.js'
 import './App.css'
@@ -18,18 +19,22 @@ class App extends Component {
     return (
       <div>
         {/* ---------- Landing Page Content --------------------*/}
+        <Navbar />
         <React.Fragment>
           <Element id="app" name="app"></Element>
         </React.Fragment>
 
-        <div className="intro">
+        {/* ---------- LANDING PAGE -------------------- */}
+        <div className="landing">
+          <div className="emptyNavbar"></div>
+
           <div className="top"><h1>Michael Ahn's</h1></div>
           <div className="middle"><h2>Project and Portfolio Demonstration</h2></div>
           <div className="bottom">
-            <button onClick={() => {
-              this.scrollDiv.current.scrollIntoView({ behavior: 'smooth' });
-            }}>
-              Begin
+            <button className="button" onClick={() => {this.scrollDiv.current.scrollIntoView({ behavior: 'smooth' });}}>
+              <span>
+                Click to Begin
+              </span>
             </button>
           </div>
         </div>

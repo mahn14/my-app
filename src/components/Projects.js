@@ -17,10 +17,12 @@ class Projects extends Component {
                 <React.Fragment>
                     <Element id="projects" name="projects"></Element>
                 </React.Fragment>
-                
+                <div className="emptyNavbar"></div>
 
-                <p>projects ...</p>
-
+                <div className="Projects">
+                    
+                    <h1>Projects begin ... </h1>
+                </div>
             </div>
         )
     }

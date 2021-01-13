@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import { Element } from 'react-scroll'
+import { Scroll, Element } from 'react-scroll'
 
-import Navbar from './Navbar.js'
 import '../css/About.css'
 
+
 class About extends Component {
-
-
 
     render() {
         return (
@@ -16,17 +14,17 @@ class About extends Component {
                 <React.Fragment>
                     <Element id="about" name="about"></Element>
                 </React.Fragment>
-                <Navbar />
-
+                
 
                 {/* ---------- About Content -------------------- */}
                 <div className="About"> 
-
-
+                    <div className="emptyNavbar"></div>
+                    
+            
                     {/* PORTRAIT ---------- */}
                     <div className="column-left">
                         <div className="portrait-placeholder">
-                            Placeholder Portrait
+                            <h1>Placeholder Portrait</h1>
                         </div>
                     </div>
 
@@ -41,11 +39,12 @@ class About extends Component {
 
 
                         <br></br>
-                        <h1>Career</h1>
+                        <h1>Background</h1>
+                            <p><b>B.S. Mathematics</b>, Virginia Tech</p>
                             <p><b>Research Analyst - National Geographic</b> <i>(Aug 2018 - Dec 2019)</i><br></br>
-                               <b>Data & Analytics Modeler - KPMG</b> <i>(Jan 2020 - Present)</i></p>
+                            <b>Data & Analytics Modeler - KPMG</b> <i>(Jan 2020 - Present)</i></p>
                             <p>My professional experiences have revolved around building predictive models, automating reporting templates, and cleaning data pipelines.<br></br>
-                               I have also worked on Operations Research as an analyst and Service Now implementations as a track lead.
+                            I have also worked in Operations Research as an analyst and Service Now ITSM implementations as a track lead.
                             </p>
 
 
@@ -65,13 +64,15 @@ class About extends Component {
                         <br></br>
                         <h1>Contact</h1>
                             <p><b>email</b>: ahn.michael14@gmail.com<br></br>
-                               <b>phone</b>: (703)-615-6886<br></br>
+                            <b>phone</b>: (703)-615-6886<br></br>
                             </p>
                             <p>Please feel free to reach out at any time.</p>      
-                      
+                    
 
                         <br></br>
                     </div>
+
+
 
                 </div>
 
