@@ -22,7 +22,7 @@ class About extends Component {
                 <div className="About"> 
                     <div className="emptyNavbar"></div>
                     
-            
+                    
                     {/* PORTRAIT ---------- */}
                     <div className="column-left">
                         <div className="portrait-placeholder">
@@ -42,7 +42,6 @@ class About extends Component {
                             <p>My path towards specialist-level proficiency begins with building a solid foundation - from predictive models and machine learning implentations to web app microservices.</p>
 
 
-                        <br></br>
                         <h1>Background</h1>
                             <p><b>B.S. Mathematics</b>, Virginia Tech</p>
                             <p><b>Research Analyst - National Geographic</b> <i>(Aug 2018 - Dec 2019)</i><br></br>
@@ -52,7 +51,7 @@ class About extends Component {
                             </p>
 
 
-                        <br></br>
+                    
                         <h1>Personal Projects & Skills</h1>
                             <p><b>Data Science</b><br></br>     
                                 <b>&nbsp;&nbsp;&nbsp;&nbsp;Python</b>: PyTorch, Scikit-Learn, Pandas, NumPy, Matplotlib<br></br>
@@ -65,7 +64,7 @@ class About extends Component {
                             </p>  
 
 
-                        <br></br>
+                       
                         <h1>Contact</h1>
                             <p><b>email</b>: ahn.michael14@gmail.com<br></br>
                             <b>phone</b>: (703)-615-6886<br></br>
