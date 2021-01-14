@@ -25,7 +25,8 @@ class About extends Component {
                     
                     {/* PORTRAIT ---------- */}
                     <div className="column-left">
-                        <div className="portrait-placeholder">
+                        <div className="portrait">
+                            <p>Add rotating sub descriptions**</p>
                             <img src={img_portrait}></img><br></br><br></br>
                             <img src={img_natgeo}></img><br></br><br></br>
                             <img src={img_kpmg}></img>
@@ -34,45 +35,46 @@ class About extends Component {
 
                     {/* CONTENT ---------- */}
                     <div className="column-right">
-
-                        <h1>About</h1>
-                            <p><b><i>If "a scientist dreams about doing things, and an engineer does them", what is stopping us from becoming both?</i></b></p>
-                            <p>My name is Michael Ahn and I am a data scientist aspiring to be an ML/software engineer. 
-                                I am constantly working through independent courses and projects to develop my technical skills.</p>
-                            <p>My path towards specialist-level proficiency begins with building a solid foundation - from predictive models and machine learning implentations to web app microservices.</p>
-
-
-                        <h1>Background</h1>
-                            <p><b>B.S. Mathematics</b>, Virginia Tech</p>
-                            <p><b>Research Analyst - National Geographic</b> <i>(Aug 2018 - Dec 2019)</i><br></br>
-                            <b>Data & Analytics Modeler - KPMG</b> <i>(Jan 2020 - Present)</i></p>
-                            <p>My professional experiences have revolved around building predictive models, automating reporting templates, and cleaning data pipelines.<br></br>
-                            I have also worked in Operations Research as an analyst and Service Now ITSM implementations as a track lead.
-                            </p>
+                        <div>
+                            <h1>About</h1>
+                                <p><b><i>If "a scientist dreams about doing things, and an engineer does them", what is stopping us from becoming both?</i></b></p>
+                                <p>My name is Michael Ahn and I am a data scientist aspiring to be an ML/software engineer. 
+                                    I am constantly working through independent courses and projects to develop my technical skills.</p>
+                                <p>My path towards specialist-level proficiency begins with building a solid foundation - from predictive models and machine learning implentations to web app microservices.</p>
 
 
-                    
-                        <h1>Personal Projects & Skills</h1>
-                            <p><b>Data Science</b><br></br>     
-                                <b>&nbsp;&nbsp;&nbsp;&nbsp;Python</b>: PyTorch, Scikit-Learn, Pandas, NumPy, Matplotlib<br></br>
-                                <b>&nbsp;&nbsp;&nbsp;&nbsp;R</b>: dplyr, ggplot2<br></br>
-                                <b>&nbsp;&nbsp;&nbsp;&nbsp;Data</b>: AccessSQL, Excel
-                            </p>
-                            <p><b>Web App</b><br></br>
-                                <b>&nbsp;&nbsp;&nbsp;&nbsp;Python</b>: Flask, Django<br></br>
-                                <b>&nbsp;&nbsp;&nbsp;&nbsp;JavaScript</b>: React                              
-                            </p>  
+                            <h1>Background</h1>
+                                <p><b>B.S. Mathematics</b>, Virginia Tech</p>
+                                <p><b>Research Analyst - National Geographic</b> <i>(Aug 2018 - Dec 2019)</i><br></br>
+                                <b>Data & Analytics Modeler - KPMG</b> <i>(Jan 2020 - Present)</i></p>
+                                <p>My professional experiences have revolved around building predictive models, automating reporting templates, and cleaning data pipelines.<br></br>
+                                I have also worked in Operations Research as an analyst and Service Now ITSM implementations as a track lead.
+                                </p>
 
 
-                       
-                        <h1>Contact</h1>
-                            <p><b>email</b>: ahn.michael14@gmail.com<br></br>
-                            <b>phone</b>: (703)-615-6886<br></br>
-                            </p>
-                            <p>Please feel free to reach out at any time.</p>      
-                    
+                        
+                            <h1>Personal Projects & Skills</h1>
+                                <p><b>Data Science</b><br></br>     
+                                    <b>&nbsp;&nbsp;&nbsp;&nbsp;Python</b>: PyTorch, Scikit-Learn, Pandas, NumPy, Matplotlib<br></br>
+                                    <b>&nbsp;&nbsp;&nbsp;&nbsp;R</b>: dplyr, ggplot2<br></br>
+                                    <b>&nbsp;&nbsp;&nbsp;&nbsp;Data</b>: AccessSQL, Excel
+                                </p>
+                                <p><b>Web App</b><br></br>
+                                    <b>&nbsp;&nbsp;&nbsp;&nbsp;Python</b>: Flask, Django<br></br>
+                                    <b>&nbsp;&nbsp;&nbsp;&nbsp;JavaScript</b>: React                              
+                                </p>  
 
-                        <br></br>
+
+                        
+                            <h1>Contact</h1>
+                                <p><b>email</b>: ahn.michael14@gmail.com<br></br>
+                                <b>phone</b>: (703)-615-6886<br></br>
+                                </p>
+                                <p>Please feel free to reach out at any time.</p>      
+                        
+
+                            <br></br>
+                        </div>
                     </div>
 
 
