@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.be93e22e.chunk.css",
-    "main.js": "/my-app/static/js/main.f8647fb1.chunk.js",
-    "main.js.map": "/my-app/static/js/main.f8647fb1.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.fdfffa77.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.fdfffa77.js.map",
-    "static/js/2.87b7d97a.chunk.js": "/my-app/static/js/2.87b7d97a.chunk.js",
-    "static/js/2.87b7d97a.chunk.js.map": "/my-app/static/js/2.87b7d97a.chunk.js.map",
-    "static/js/3.26191f52.chunk.js": "/my-app/static/js/3.26191f52.chunk.js",
-    "static/js/3.26191f52.chunk.js.map": "/my-app/static/js/3.26191f52.chunk.js.map",
+    "main.css": "/my-app/static/css/main.819568ef.chunk.css",
+    "main.js": "/my-app/static/js/main.c615201d.chunk.js",
+    "main.js.map": "/my-app/static/js/main.c615201d.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.ced655e6.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.ced655e6.js.map",
+    "static/css/2.9637fdef.chunk.css": "/my-app/static/css/2.9637fdef.chunk.css",
+    "static/js/2.0fdb61aa.chunk.js": "/my-app/static/js/2.0fdb61aa.chunk.js",
+    "static/js/2.0fdb61aa.chunk.js.map": "/my-app/static/js/2.0fdb61aa.chunk.js.map",
+    "static/js/3.e84838b3.chunk.js": "/my-app/static/js/3.e84838b3.chunk.js",
+    "static/js/3.e84838b3.chunk.js.map": "/my-app/static/js/3.e84838b3.chunk.js.map",
     "index.html": "/my-app/index.html",
-    "static/css/main.be93e22e.chunk.css.map": "/my-app/static/css/main.be93e22e.chunk.css.map",
-    "static/js/2.87b7d97a.chunk.js.LICENSE.txt": "/my-app/static/js/2.87b7d97a.chunk.js.LICENSE.txt",
+    "static/css/2.9637fdef.chunk.css.map": "/my-app/static/css/2.9637fdef.chunk.css.map",
+    "static/css/main.819568ef.chunk.css.map": "/my-app/static/css/main.819568ef.chunk.css.map",
+    "static/js/2.0fdb61aa.chunk.js.LICENSE.txt": "/my-app/static/js/2.0fdb61aa.chunk.js.LICENSE.txt",
     "static/media/kpmg.e8358cf1.png": "/my-app/static/media/kpmg.e8358cf1.png",
     "static/media/natgeo.136b470f.png": "/my-app/static/media/natgeo.136b470f.png",
     "static/media/portrait.29625700.png": "/my-app/static/media/portrait.29625700.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fdfffa77.js",
-    "static/js/2.87b7d97a.chunk.js",
-    "static/css/main.be93e22e.chunk.css",
-    "static/js/main.f8647fb1.chunk.js"
+    "static/js/runtime-main.ced655e6.js",
+    "static/css/2.9637fdef.chunk.css",
+    "static/js/2.0fdb61aa.chunk.js",
+    "static/css/main.819568ef.chunk.css",
+    "static/js/main.c615201d.chunk.js"
   ]
 }
