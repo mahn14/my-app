@@ -1,10 +1,16 @@
+// React dependencies
 import React, { Component } from 'react';
-import { Scroll, Element } from 'react-scroll'
+import { Element } from 'react-scroll'
 
+// project
 import '../css/About.css'
 import img_natgeo from '../images/natgeo.png'
 import img_kpmg from '../images/kpmg.png'
 import img_portrait from '../images/portrait.png'
+
+
+import Carousel from './Carousel.js'
+
 
 class About extends Component {
 
@@ -16,7 +22,8 @@ class About extends Component {
                 <React.Fragment>
                     <Element id="about" name="about"></Element>
                 </React.Fragment>
-                
+
+
 
                 {/* ---------- About Content -------------------- */}
                 <div className="About"> 
@@ -25,17 +32,15 @@ class About extends Component {
                     
                     {/* PORTRAIT ---------- */}
                     <div className="column-left">
-                        <div className="portrait">
-                            <p>Add rotating sub descriptions**</p>
-                            <img src={img_portrait}></img><br></br><br></br>
-                            <img src={img_natgeo}></img><br></br><br></br>
-                            <img src={img_kpmg}></img>
+                        <div className="swiper">
+                            <Carousel />
                         </div>
+                    
                     </div>
 
                     {/* CONTENT ---------- */}
                     <div className="column-right">
-                        <div>
+                        <div className="text">
                             <h1>About</h1>
                                 <p><b><i>If "a scientist dreams about doing things, and an engineer does them", what is stopping us from becoming both?</i></b></p>
                                 <p>My name is Michael Ahn and I am a data scientist aspiring to be an ML/software engineer. 
