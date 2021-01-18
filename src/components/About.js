@@ -64,8 +64,14 @@ class About extends Component {
 
                     
                         <h1>Contact</h1>
-                            <p><b>email</b>: ahn.michael14@gmail.com<br></br>
-                            <b>phone</b>: (703)-615-6886<br></br>
+                            <p>
+                                <b>email</b>: <a href="mailto:ahn.michael14@gmail.com">ahn.michael14@gmail.com</a><br></br>
+                                <b>phone</b>: (703)-615-6886<br></br>
+                                <b>LinkedIn</b>: <a href="https://www.linkedin.com/in/michael-ahn-396465157/"
+                                                    target="_blank">Michael Ahn</a><br></br>
+                                <b>GitHub</b>: <a href="https://github.com/mahn14"
+                                                  target="_blank">mahn14</a>
+
                             </p>
                     </div>
                     

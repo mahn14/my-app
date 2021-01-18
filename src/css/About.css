@@ -1,7 +1,8 @@
 /* Home --------------------------------- */
 .About {
     height: 100vh;
-    width: 50vw;
+    width: 50vw - 7%;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +15,7 @@
 .text {
     margin: 2%;
     padding-right: 5%;
+    padding-top: 10%;
 }
 
 /* Item formatting ---------------------- */
