@@ -11,6 +11,8 @@ import About from './components/About.js'
 import Projects from './components/Projects.js'
 import Carousel from './components/Carousel.js'
 
+import Django from './components/Django.js'
+
 // CSS
 import './App.css'
 
@@ -60,11 +62,14 @@ class App extends Component {
         {/* ---------- Start Components --------------------*/}
         <div className="body">
           <div ref={this.scrollDiv} />
+
           <div className="columns">
             <div className="column-left"><Carousel /></div>
             <div className="column-right"><About /></div>
           </div>
+
           <Projects />
+          <Django />
         </div>
 
 

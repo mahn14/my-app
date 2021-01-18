@@ -3,7 +3,7 @@ import { Element } from 'react-scroll'
 
 import Navbar from './Navbar.js'
 import '../css/Projects.css'
-
+import img_django from '../images/django.png'
 class Projects extends Component {
 
 
@@ -22,6 +22,12 @@ class Projects extends Component {
                 <div className="Projects">
                     
                     <h1>Projects begin ... </h1>
+
+                    <div className="web-app">
+                        <a href="#" target="_blank"><img src={img_django} /></a>
+                           
+                    </div>
+
                 </div>
             </div>
         )

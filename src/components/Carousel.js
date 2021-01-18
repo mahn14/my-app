@@ -39,7 +39,7 @@ const Carousel = () => {
           <h1>Michael Ahn</h1>
             <p>
               <b>Analytic, Inquisitive, Passionate</b><br></br>
-              I spend my free time progress toward powerlifting goals 
+              I spend my free time progress towards my powerlifting goals 
               and working on personal ML / software engineering projects. 
             </p>
           </div>
