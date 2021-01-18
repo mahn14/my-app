@@ -15,7 +15,7 @@ class Landing extends Component {
           <div className="emptyNavbar"></div>
 
           <div className="top"><h1>Michael Ahn's</h1></div>
-          <div className="middle"><h2>Project and Portfolio Demonstration</h2></div>
+          <div className="bottom"><h2>Project and Portfolio Demonstration</h2></div>
         </div>
         
       </div>

@@ -1,3 +1,20 @@
 .landing {
     height: 90vh;
 }
+
+.top {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-size: 5vh
+}
+.bottom {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-size: 3vh
+}

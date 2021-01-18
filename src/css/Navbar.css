@@ -1,10 +1,10 @@
 .navbar {
   position: fixed;
 
-  height: 10%;
+  height: 10vh;
   
   width: 100%;
-  background-color: white;
+  background-color: lightgray;
   }
 
 /* Navigation links */

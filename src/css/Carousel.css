@@ -1,12 +1,39 @@
-.swiper-text {
-    height: 100%;
-    background-color: lightblue;
+.carousel {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.emptyNavbar {
+    height: 10%;
 }
 
-p {
-    color: red;
-
+.Swiper {
+    border-right: 1px black solid;
+    margin: 2%;
     
-    bottom: 0;
-    left: 0;
+
+    position: relative;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    height: 60vh;
+    width: auto;
+    
+}
+
+.swiper-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10;
+    padding-left: 5%;
 }

@@ -6,8 +6,10 @@ import { Helmet } from 'react-helmet'
 // Component Dependencies
 import Navbar from './components/Navbar.js'
 import Landing from './components/Landing.js'
+
 import About from './components/About.js'
 import Projects from './components/Projects.js'
+import Carousel from './components/Carousel.js'
 
 // CSS
 import './App.css'
@@ -33,11 +35,13 @@ class App extends Component {
 
 
         {/* ---------- Navigation Bar -------------------- */}
-        <Navbar />
+        <div className="navbar">
+          <Navbar />
+        </div>
         <React.Fragment>
           <Element id="app" name="app"></Element>
         </React.Fragment>
-
+        
 
         <Landing />
 
@@ -50,12 +54,16 @@ class App extends Component {
             </span>
           </button>
         </div>
+      
         
 
         {/* ---------- Start Components --------------------*/}
         <div className="body">
           <div ref={this.scrollDiv} />
-          <About />
+          <div className="columns">
+            <div className="column-left"><Carousel /></div>
+            <div className="column-right"><About /></div>
+          </div>
           <Projects />
         </div>
 

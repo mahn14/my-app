@@ -2,36 +2,29 @@
   height: 10%;
 }
 
-.top {
-  height: 40%;
 
+/* Column formatting -------------------- */
+.columns {
+  z-index: -1;
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
 
-  font-size: 3em;
+  height: 100vh;
 }
 
-.middle {
-  height: 10%;
-
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-
-  font-size: 2em;
+.column-left {
+  height: 90vh;
 }
+
+.column-right {
+  height: 90vh;
+}
+
 
 .bottom {
-  height: 40%;
-
+  height: 10vh;
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .button {
@@ -40,8 +33,7 @@
 
   color: white;
   text-align: center;
-  font-size: 1.5em;
-
+  font-size: 2vh;
 
   padding: 1%;
   width: 10%;
