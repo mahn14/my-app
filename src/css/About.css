@@ -37,14 +37,17 @@
 /* Item formatting ---------------------- */
 h1 {
     color: gray;
+    padding-top: 1vh;
 }
 p {
     font-size: 1.6vh;
-    display:
 }
 img {
     max-width: 100%;
     height: auto;
+
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -55,9 +58,5 @@ img {
 
     display: flex;
 }
-.swiper-text {
- 
-    margin-left: 10%;
-    display: flex;
-    justify-content: left;
-}
+
+

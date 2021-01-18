@@ -8,7 +8,6 @@ import img_natgeo from '../images/natgeo.png'
 import img_kpmg from '../images/kpmg.png'
 import img_portrait from '../images/portrait.png'
 
-
 import Carousel from './Carousel.js'
 
 

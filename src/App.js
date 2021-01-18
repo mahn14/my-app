@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 
 // Component Dependencies
 import Navbar from './components/Navbar.js'
+import Landing from './components/Landing.js'
 import About from './components/About.js'
 import Projects from './components/Projects.js'
 
@@ -26,7 +27,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="Application">
         {/* ---------- Title Header ---------------------------- */}
         <Helmet><title>{this.TITLE}</title></Helmet>
 
@@ -38,19 +39,16 @@ class App extends Component {
         </React.Fragment>
 
 
-        {/* ---------- LANDING PAGE -------------------- */}
-        <div className="landing">
-          <div className="emptyNavbar"></div>
+        <Landing />
 
-          <div className="top"><h1>Michael Ahn's</h1></div>
-          <div className="middle"><h2>Project and Portfolio Demonstration</h2></div>
-          <div className="bottom">
-            <button className="button" onClick={() => {this.scrollDiv.current.scrollIntoView({ behavior: 'smooth' });}}>
-              <span>
-                Click to Begin
-              </span>
-            </button>
-          </div>
+
+        <div className="bottom">
+          <button className="button" onClick={() => 
+            {this.scrollDiv.current.scrollIntoView({ behavior: 'smooth' });}}>
+            <span>
+              Click to Begin
+            </span>
+          </button>
         </div>
         
 

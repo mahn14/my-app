@@ -21,6 +21,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const Carousel = () => {
   return (
+
     <Swiper
       spaceBetween={200}
       slidesPerView={1}
@@ -32,18 +33,33 @@ const Carousel = () => {
     >
       <SwiperSlide>
         <img src={img_portrait} />
+        <div className="swiper-text">
+          <p>
+            Hello
+          </p>
+        </div>
       </SwiperSlide>
       
       <SwiperSlide>
         <img src={img_kpmg} />
+        <div className="swiper-text">
+          <p>
+            Hello
+          </p>
+        </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <img src={img_natgeo} />
-        
+        <div className="swiper-text">
+          <p>
+            Hello
+          </p>
+        </div>        
       </SwiperSlide>
       
     </Swiper>
+
   );
 };
 
